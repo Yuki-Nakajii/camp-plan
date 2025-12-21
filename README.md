@@ -1,56 +1,55 @@
-# camp-plan
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <title>キャンプ計画まとめ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: #fafafa;
+    font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+    background: #fff7fb;
     margin: 0;
     padding: 20px;
-    line-height: 1.7;
+    line-height: 1.8;
   }
 
-  .box {
-    background: #fff;
-    border-radius: 12px;
+  .title-box {
+    background: #ffe6f4;
+    border: 3px solid #ffbde3;
+    border-radius: 20px;
     padding: 20px;
-    margin-bottom: 20px;
-    border: 2px solid #f1c4ff;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(255, 182, 218, 0.3);
+  }
+
+  h1 {
+    margin: 0;
+    color: #d14f9c;
+    font-size: 26px;
+  }
+
+  .note {
+    font-size: 14px;
+    color: #8a6b7a;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 22px;
+    border: 2px dashed #ffc7e6;
+    box-shadow: 0 2px 5px rgba(255, 200, 230, 0.2);
   }
 
   h2 {
-    color: #7c3a9e;
     margin-top: 0;
-  }
-
-  h3 {
-    color: #7c3a9e;
-    border-bottom: 1px dashed #f1c4ff;
+    color: #d14f9c;
+    font-size: 20px;
+    border-bottom: 1px dashed #ffbde3;
     padding-bottom: 4px;
-  }
-
-  .orange-box {
-    border-color: #ffd8b8;
-    background: #fffaf5;
-  }
-
-  .orange-box h3 {
-    color: #d26b28;
-    border-bottom: 1px dashed #ffd8b8;
-  }
-
-  .blue-box {
-    border-color: #b8e4ff;
-    background: #f7fbff;
-  }
-
-  .blue-box h3 {
-    color: #246b9e;
-    border-bottom: 1px dashed #b8e4ff;
   }
 
   ul {
@@ -59,25 +58,37 @@
   }
 
   a {
-    color: #7c3a9e;
+    color: #d14f9c;
+    text-decoration: underline;
+  }
+
+  /* 小見出し */
+  h3 {
+    margin: 12px 0 6px;
+    font-size: 17px;
+    color: #c24f8f;
+  }
+
+  /* イラスト風の飾り */
+  .deco {
+    font-size: 22px;
+    margin-right: 6px;
   }
 </style>
 </head>
 
 <body>
 
-<div class="box">
-  <h2>キャンプ計画まとめ（送信用）</h2>
-  <p style="color:#7c7c7c; font-size:14px;">
-    ※お友達とお母さまに共有するための内容です
-  </p>
+<div class="title-box">
+  <h1>🌸 キャンプ計画まとめ 🌸</h1>
+  <p class="note">お友達とお母さまに共有するためのページです</p>
 </div>
 
-<div class="box">
-  <h3>キャンプについて</h3>
+<div class="card">
+  <h2><span class="deco">⛺</span>キャンプについて</h2>
   <ul>
     <li>日にち：5月9日（土）<br>
-      <span style="font-size:13px; color:#777;">※美咲の希望日ですが、他の土曜日でも大丈夫です</span>
+      <span style="font-size:13px; color:#8a6b7a;">※美咲の希望日ですが、他の土曜日でも大丈夫です</span>
     </li>
     <li>泊数：1泊</li>
     <li>集合場所：明太子パーク</li>
@@ -96,9 +107,9 @@
   </ul>
 </div>
 
-<div class="box orange-box">
-  <h3>持ち物</h3>
-  <p style="font-size:14px; color:#995934;">
+<div class="card">
+  <h2><span class="deco">🎒</span>持ち物</h2>
+  <p style="font-size:14px; color:#8a6b7a;">
     ※以下は、美咲が作成したリストです。必要に応じて追加・調整してください。
   </p>
   <ul>
@@ -115,24 +126,23 @@
   </ul>
 </div>
 
-<div class="box blue-box">
-  <h3>キャンプ用の食材</h3>
+<div class="card">
+  <h2><span class="deco">🍽</span>キャンプ用の食材</h2>
 
-  <h4 style="margin-bottom:4px;">朝ごはん</h4>
+  <h3>🌅 朝ごはん</h3>
   <ul>
     <li>サラダ</li>
     <li>白ご飯</li>
   </ul>
 
-  <p style="margin-top:8px; font-size:14px;">サラダの材料</p>
+  <h3>🥗 サラダの材料</h3>
   <ul>
     <li>トマト</li>
     <li>レタス</li>
     <li>きゅうり</li>
   </ul>
 
-  <h4 style="margin-top:16px; margin-bottom:4px;">夜ごはん（ハンバーグ）</h4>
-  <p style="font-size:14px;">ハンバーグの材料</p>
+  <h3>🌙 夜ごはん（ハンバーグ）</h3>
   <ul>
     <li>ミンチ肉</li>
     <li>玉ねぎ</li>
@@ -142,7 +152,7 @@
     <li>油</li>
   </ul>
 
-  <h4 style="margin-top:16px; margin-bottom:4px;">飲み物</h4>
+  <h3>🥤 飲み物</h3>
   <ul>
     <li>水</li>
     <li>お茶</li>
