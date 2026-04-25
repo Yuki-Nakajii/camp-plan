@@ -24,16 +24,8 @@
     box-shadow: 0 3px 6px rgba(255, 182, 218, 0.3);
   }
 
-  h1 {
-    margin: 0;
-    color: #d14f9c;
-    font-size: 26px;
-  }
-
-  .note {
-    font-size: 14px;
-    color: #8a6b7a;
-  }
+  h1 { margin: 0; color: #d14f9c; font-size: 26px; }
+  .note { font-size: 14px; color: #8a6b7a; }
 
   .card {
     background: #ffffff;
@@ -52,27 +44,19 @@
     padding-bottom: 4px;
   }
 
-  ul {
-    margin: 0 0 0 20px;
-    padding: 0;
-  }
+  h3 { margin: 12px 0 6px; font-size: 17px; color: #c24f8f; }
+  ul { margin: 0 0 0 20px; padding: 0; }
+  a { color: #d14f9c; text-decoration: underline; }
+  .deco { font-size: 22px; margin-right: 6px; }
 
-  a {
-    color: #d14f9c;
-    text-decoration: underline;
-  }
-
-  /* 小見出し */
-  h3 {
-    margin: 12px 0 6px;
-    font-size: 17px;
-    color: #c24f8f;
-  }
-
-  /* イラスト風の飾り */
-  .deco {
-    font-size: 22px;
-    margin-right: 6px;
+  .warn {
+    background: #fff0f7;
+    border-left: 4px solid #f4a0cc;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #7a4060;
+    margin-top: 10px;
   }
 </style>
 </head>
@@ -84,78 +68,92 @@
   <p class="note">お友達とお母さまに共有するためのページです</p>
 </div>
 
+<!-- 予約情報 -->
 <div class="card">
-  <h2><span class="deco">⛺</span>キャンプについて</h2>
+  <h2><span class="deco">📋</span>予約情報（確定済み）</h2>
   <ul>
-    <li>日にち：2026年5月9日（土）<br>
-      <span style="font-size:13px; color:#8a6b7a;">※美咲の希望日ですが、他の土曜日でも大丈夫です</span>
-    </li>
+    <li>チェックイン日：2026年5月9日（土）</li>
     <li>泊数：1泊</li>
+    <li>施設：ヴィラマイアミ・マイアミキャビン（計2区画・Aサイト）</li>
+    <li>
+      <b>ヴィラマイアミ</b>：炊事場付き（やや料金高め）→ 松本家が利用予定<br>
+      <b>マイアミキャビン</b>：管理棟に近いAサイト<br>
+      <span style="color:#d14f9c;">🍳 炊事場はみんなで一緒に使いましょう！</span>
+    </li>
+    <li>人数：大人4名・子ども4名</li>
+    <li>車：乗用車2台</li>
+    <li>
+      キャンプ場：マイアミ浜オートキャンプ場<br>
+      <a href="https://maiami.info/pages/96/" target="_blank">公式ページ</a>　／　℡：077-589-5725
+    </li>
+  </ul>
+  <div class="warn">
+    ⚠️ 来場時にこのメール受信画面を提示してください。
+  </div>
+</div>
+
+<!-- スケジュール -->
+<div class="card">
+  <h2><span class="deco">⏰</span>当日のスケジュール</h2>
+  <ul>
     <li>集合場所：明太子パーク</li>
     <li>集合時間：14時</li>
-    <li>
-      行き先：マイアミ浜キャンプ場<br>
-      公式ページ：
-      <a href="https://maiami.info/pages/96/" target="_blank">
-        https://maiami.info/pages/96/
-      </a>
-    </li>
-    <li>チェックイン：14時〜</li>
-    <li>チェックアウト：翌日12時まで</li>
-    <li>予約開始：５月分のご利用は２月１日受付開始</li>
-    <li>キャビン or テント → 決まり次第、美咲のお母さんが予約します</li>
+    <li>チェックイン：14時〜17時</li>
+    <li>チェックアウト：翌日9時〜12時</li>
   </ul>
 </div>
 
+<!-- 注意事項 -->
+<div class="card">
+  <h2><span class="deco">⚠️</span>主な注意事項</h2>
+  <ul>
+    <li>サイト内での花火は禁止（指定場所・時間あり）</li>
+    <li>直火によるBBQ・焚き火は禁止（BBQグリル・焚火台を使用）</li>
+    <li>夜10時〜朝6時は静寂時間</li>
+    <li>2台目の車は管理棟横駐車場へ（要：駐車許可証 ¥1,010/台）</li>
+    <li>ゴミは分類して所定のゴミ置き場へ</li>
+    <li>キャンセルはキャビンサイトは7日前から料金発生（5/2以降はキャンセル料あり）</li>
+  </ul>
+</div>
+
+<!-- お風呂・シャワー -->
+<div class="card">
+  <h2><span class="deco">🚿</span>お風呂について</h2>
+  <ul>
+    <li>管理棟に温水シャワーがあります（お風呂の代わりにご利用ください）</li>
+  </ul>
+</div>
+
+<!-- 持ち物 -->
 <div class="card">
   <h2><span class="deco">🎒</span>持ち物</h2>
-  <p style="font-size:14px; color:#8a6b7a;">
-    ※以下は、美咲が作成したリストです。必要に応じて追加・調整してください。
-  </p>
+  <p style="font-size:14px; color:#8a6b7a;">※美咲が作成したリストです。必要に応じて調整してください。</p>
   <ul>
-    <li>パジャマ：1人1枚</li>
-    <li>タオル：1人3枚</li>
-    <li>寝袋：4個（家族4人の場合）</li>
-    <li>コップ：4個</li>
-    <li>枕：4個</li>
-    <li>歯ブラシ：4本</li>
+    <li>パジャマ・タオル（1人3枚）</li>
+    <li>寝袋・枕・コップ・歯ブラシ（各4つ）</li>
+    <li>テント・ペグ・ランタン</li>
+    <li>BBQグリルまたは焚火台（直火禁止のため必須）</li>
     <li>おもちゃ（必要なもの）</li>
-    <li>テント</li>
-    <li>テント用の釘（必要であれば）</li>
-    <li>テントの中を照らすライト</li>
   </ul>
 </div>
 
+<!-- 食材 -->
 <div class="card">
-  <h2><span class="deco">🍽</span>キャンプ用の食材</h2>
-
-  <h3>🌅 朝ごはん</h3>
-  <ul>
-    <li>サラダ</li>
-    <li>白ご飯</li>
-  </ul>
-
-  <h3>🥗 サラダの材料</h3>
-  <ul>
-    <li>トマト</li>
-    <li>レタス</li>
-    <li>きゅうり</li>
-  </ul>
+  <h2><span class="deco">🍽</span>食材</h2>
 
   <h3>🌙 夜ごはん（ハンバーグ）</h3>
   <ul>
-    <li>ミンチ肉</li>
-    <li>玉ねぎ</li>
-    <li>パン粉</li>
-    <li>卵</li>
-    <li>塩・こしょう</li>
-    <li>油</li>
+    <li>ミンチ肉・玉ねぎ・パン粉・卵・塩こしょう・油</li>
+  </ul>
+
+  <h3>🌅 朝ごはん</h3>
+  <ul>
+    <li>白ご飯・サラダ（トマト・レタス・きゅうり）</li>
   </ul>
 
   <h3>🥤 飲み物</h3>
   <ul>
-    <li>水</li>
-    <li>お茶</li>
+    <li>水・お茶</li>
   </ul>
 </div>
 
